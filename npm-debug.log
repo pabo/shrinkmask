@@ -1,0 +1,102 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/6.2.2/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'link' ]
+2 info using npm@3.9.5
+3 info using node@v6.2.2
+4 verbose linkPkg /Users/bschellenberg/dev/shrinkmask
+5 silly gentlyRm /usr/local/lib/node_modules/shrinkmask is being purged
+6 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/shrinkmask
+7 verbose link build target /usr/local/lib/node_modules/shrinkmask
+8 silly loadCurrentTree Starting
+9 silly install loadCurrentTree
+10 silly install readLocalPackageData
+11 silly install normalizeTree
+12 silly loadCurrentTree Finishing
+13 silly loadIdealTree Starting
+14 silly install loadIdealTree
+15 silly cloneCurrentTree Starting
+16 silly install cloneCurrentTreeToIdealTree
+17 silly cloneCurrentTree Finishing
+18 silly loadShrinkwrap Starting
+19 silly install loadShrinkwrap
+20 silly loadShrinkwrap Finishing
+21 silly loadAllDepsIntoIdealTree Starting
+22 silly install loadAllDepsIntoIdealTree
+23 silly loadAllDepsIntoIdealTree Finishing
+24 silly idealTree:prePrune shrinkmask@0.0.1
+25 silly loadIdealTree Finishing
+26 silly currentTree shrinkmask@0.0.1
+27 silly idealTree shrinkmask@0.0.1
+28 silly generateActionsToTake Starting
+29 silly install generateActionsToTake
+30 silly generateActionsToTake Finishing
+31 silly diffTrees action count 0
+32 silly decomposeActions action count 0
+33 silly executeActions Starting
+34 silly install executeActions
+35 silly doSerial global-install 0
+36 silly doParallel fetch 0
+37 verbose correctMkdir /Users/bschellenberg/.npm/_locks correctMkdir not in flight; initializing
+38 verbose lock using /Users/bschellenberg/.npm/_locks/staging-2562afdf7a220e4c.lock for /Users/bschellenberg/dev/shrinkmask/node_modules/.staging
+39 silly doParallel extract 0
+40 silly doParallel preinstall 0
+41 silly doReverseSerial remove 0
+42 silly doSerial move 0
+43 silly doSerial finalize 0
+44 silly doSerial build 0
+45 silly doSerial global-link 0
+46 silly doParallel update-linked 0
+47 silly doSerial install 0
+48 silly doSerial postinstall 0
+49 verbose unlock done using /Users/bschellenberg/.npm/_locks/staging-2562afdf7a220e4c.lock for /Users/bschellenberg/dev/shrinkmask/node_modules/.staging
+50 silly executeActions Finishing
+51 silly rollbackFailedOptional Starting
+52 silly rollbackFailedOptional Finishing
+53 silly runTopLevelLifecycles Starting
+54 silly install runTopLevelLifecycles
+55 silly preinstall shrinkmask@0.0.1 /Users/bschellenberg/dev/shrinkmask/shrinkmask-27931747
+56 info lifecycle shrinkmask@0.0.1~preinstall: shrinkmask@0.0.1
+57 silly lifecycle shrinkmask@0.0.1~preinstall: no script for preinstall, continuing
+58 silly build shrinkmask@0.0.1
+59 info linkStuff shrinkmask@0.0.1
+60 silly linkStuff shrinkmask@0.0.1 has /Users/bschellenberg/dev as its parent node_modules
+61 verbose linkBins shrinkmask@0.0.1
+62 verbose linkMans shrinkmask@0.0.1
+63 silly install shrinkmask@0.0.1 /Users/bschellenberg/dev/shrinkmask/shrinkmask-27931747
+64 info lifecycle shrinkmask@0.0.1~install: shrinkmask@0.0.1
+65 silly lifecycle shrinkmask@0.0.1~install: no script for install, continuing
+66 silly postinstall shrinkmask@0.0.1 /Users/bschellenberg/dev/shrinkmask/shrinkmask-27931747
+67 info lifecycle shrinkmask@0.0.1~postinstall: shrinkmask@0.0.1
+68 silly lifecycle shrinkmask@0.0.1~postinstall: no script for postinstall, continuing
+69 silly prepublish shrinkmask@0.0.1 /Users/bschellenberg/dev/shrinkmask/shrinkmask-27931747
+70 info lifecycle shrinkmask@0.0.1~prepublish: shrinkmask@0.0.1
+71 silly lifecycle shrinkmask@0.0.1~prepublish: no script for prepublish, continuing
+72 silly runTopLevelLifecycles Finishing
+73 silly install printInstalled
+74 warn shrinkmask@0.0.1 No repository field.
+75 info build /usr/local/lib/node_modules/shrinkmask
+76 info linkStuff shrinkmask@0.0.1
+77 silly linkStuff shrinkmask@0.0.1 has /usr/local/lib/node_modules as its parent node_modules
+78 silly linkStuff shrinkmask@0.0.1 is part of a global install
+79 silly linkStuff shrinkmask@0.0.1 is installed into a global node_modules
+80 silly linkStuff shrinkmask@0.0.1 is installed into the top-level global node_modules
+81 verbose linkBins shrinkmask@0.0.1
+82 verbose link bins [ { shrinkmask: './index.js' }, '/usr/local/bin', true ]
+83 verbose linkMans shrinkmask@0.0.1
+84 verbose stack Error: ENOENT: no such file or directory, chmod '/usr/local/lib/node_modules/shrinkmask/index.js'
+84 verbose stack     at Error (native)
+85 verbose cwd /Users/bschellenberg/dev/shrinkmask
+86 error Darwin 15.6.0
+87 error argv "/usr/local/Cellar/node/6.2.2/bin/node" "/usr/local/bin/npm" "link"
+88 error node v6.2.2
+89 error npm  v3.9.5
+90 error path /usr/local/lib/node_modules/shrinkmask/index.js
+91 error code ENOENT
+92 error errno -2
+93 error syscall chmod
+94 error enoent ENOENT: no such file or directory, chmod '/usr/local/lib/node_modules/shrinkmask/index.js'
+95 error enoent ENOENT: no such file or directory, chmod '/usr/local/lib/node_modules/shrinkmask/index.js'
+95 error enoent This is most likely not a problem with npm itself
+95 error enoent and is related to npm not being able to find a file.
+96 verbose exit [ -2, true ]

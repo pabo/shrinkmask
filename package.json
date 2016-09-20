@@ -3,12 +3,15 @@
   "version": "0.0.1",
   "description": "A command-line tool for applying a mask of values to a npm-shrinkwrap file",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Brett Schellenberg",
   "license": "MIT",
-  "bin": {
-    "shrinkmask": "./index.js"
+  "bin": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pabo/shrinkmask.git"
+  },
+  "dependencies": {
+    "lodash": "^4.16.0",
+    "read-file": "^0.2.0"
   }
 }

@@ -14,7 +14,7 @@ Create a `npm-shrinkmask.json`, which should have the same structure as `npm-shr
             "postcss-svgo": {
               "dependencies": {
                 "svgo": {
-                  "version": "0.6.ONEMILLION",
+                  "version": "0.6.WHATEVER",
                   "from": "svgo@^0.6.6",
                   "resolved": "https://registry.npmjs.intuit.net/s/svgo/_attachments/svgo-0.6.6.tgz"
                 }
